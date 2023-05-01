@@ -84,11 +84,11 @@ def search_condition(element):
     return False
 
 
-print("The indexed data will be stored into:\n"+output_file)
+print("The indexed data will be stored into:\n" + output_file)
 
 p = Path(os.path.dirname(output_file))
 p.mkdir(exist_ok=True)
 
 with open(output_file, "w") as outfile:
-    outfile.write(generate_page_index(mdBook_url))
+    outfile.write(generate_page_index("./json_index" + mdBook_url))
     print("Indexing complete.\n")
