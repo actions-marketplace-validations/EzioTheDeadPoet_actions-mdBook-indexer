@@ -2,8 +2,8 @@ import requests  # Installed
 import urllib.parse
 import json
 from bs4 import BeautifulSoup as Soup  # Installed
-
-wiki_url = "https://wiki.wabbajack.org/"  # TODO: Make Dynamic for releasing on GithubMarketplace
+# TODO: Make Dynamic for releasing on GithubMarketplace or any other way to easily share with other repositories
+wiki_url = "https://wiki.wabbajack.org/"
 
 section_finished = False
 
@@ -74,5 +74,6 @@ def search_condition(element):
     return False
 
 
-with open("wiki_index.json", "w") as outfile:  # TODO: optional file_name parameter
+# TODO: optional file_name parameter
+with open("wiki_index.json", "w") as outfile:
     outfile.write(generate_page_index(wiki_url))
