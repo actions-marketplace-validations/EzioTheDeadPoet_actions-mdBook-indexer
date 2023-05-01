@@ -1,6 +1,7 @@
 # action.yaml
 name: 'mdBook to JSON file'
 description: 'A GitHub Action that takes an mdBook url input and generates an indexed JSON file of all pages.'
+icon: file-text
 inputs:
   mbBook_url:
     description: 'Enter url to mdBook based wiki'
