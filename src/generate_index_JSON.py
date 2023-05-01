@@ -14,7 +14,7 @@ mdBook_url = sys.argv[1]
 
 output_file = "mbBook_index.json"
 
-if len(sys.argv) >= 3:
+if len(sys.argv) >= 3 and sys.argv[2] != "":
     output_file = sys.argv[2]
 
 
@@ -86,9 +86,9 @@ def search_condition(element):
 
 print("The indexed data will be stored into:\n" + output_file)
 
-p = Path(os.path.dirname(output_file))
+p = Path(os.path.dirname("./json_index" + output_file))
 p.mkdir(exist_ok=True)
 
-with open(output_file, "w") as outfile:
-    outfile.write(generate_page_index("./json_index" + mdBook_url))
+with open("./json_index" + output_file, "w") as outfile:
+    outfile.write(generate_page_index(mdBook_url))
     print("Indexing complete.\n")
