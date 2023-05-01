@@ -9,10 +9,6 @@ inputs:
   output_file:
     description: 'Enter desired file path'
     required: false
-  branch_name:
-    description: 'Name of the branch to push the index to'
-    required: true
-    default: json_index
 runs:
   using: 'composite'
   steps:
@@ -31,9 +27,3 @@ runs:
       id: index_task
       run: python src/generate_index_JSON.py ${{ inputs.wiki_url }} json_index/${{ inputs.output_file }}
       shell: bash
-    - name: Deploy Data
-          uses: peaceiris/actions-gh-pages@v3
-          with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: ./json_index
-            publish_branch: ${{inputs.branch_name}}
