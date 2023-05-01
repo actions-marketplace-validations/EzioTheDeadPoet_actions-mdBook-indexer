@@ -84,11 +84,13 @@ def search_condition(element):
     return False
 
 
+output_file = sys.argv[0].replace("generate_index_JSON.py", "json_index\\" + output_file)
+
 print("The indexed data will be stored into:\n" + output_file)
 
-p = Path(os.path.dirname("./json_index/" + output_file))
+p = Path(os.path.dirname(output_file))
 p.mkdir(exist_ok=True)
 
-with open("./json_index/" + output_file, "w") as outfile:
+with open(output_file, "w") as outfile:
     outfile.write(generate_page_index(mdBook_url))
     print("Indexing complete.\n")
