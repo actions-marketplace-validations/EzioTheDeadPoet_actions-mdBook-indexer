@@ -21,10 +21,3 @@ jobs:
           with:
             wiki_url: https://wiki.wabbajack.org/
             output_file: ./book/example_output.json
-        - name: Deploy Page
-          uses: peaceiris/actions-gh-pages@v3
-          if: ${{ github.ref == 'refs/heads/main' }}
-          with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: ./book
-            publish_branch: gh-pages
