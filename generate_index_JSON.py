@@ -3,7 +3,9 @@ import urllib.parse
 import json
 from bs4 import BeautifulSoup as Soup  # Installed
 
-wiki_url = "https://wiki.wabbajack.org/"
+wiki_url = "https://wiki.wabbajack.org/"  # TODO: Make Dynamic for releasing on GithubMarketplace
+
+section_finished = False
 
 
 class IndexedPage(dict):
@@ -24,24 +26,53 @@ def get_html(url):
     return requests.get(url).content
 
 
-def generate_index(html_item):
-    index_helper = []
+def generate_page_index(file_url):
+    html_item = Soup(get_html(file_url), 'html.parser')
+    indexed_pages_helper = []
     chapter = html_item.find("ol", class_="chapter")
     list_items = chapter.find_all('a', href=True)
     for list_item in list_items:
         item_url = list_item['href']
-        if item_url[0:1] == "../":
-            item_url = item_url.replace("../", "", 1)
         item_url = urllib.parse.quote(item_url)
-        full_url = wiki_url + item_url
-        print(list_item.get_text() + ":" + full_url)
-        indexed_page = IndexedPage(list_item.get_text(),full_url)
-        index_helper.append(indexed_page)
-    return json.dumps(index_helper)
+        full_url = file_url + item_url
+        indexed_page = IndexedPage(list_item.get_text(), full_url, generate_indexed_headers(full_url))
+        indexed_pages_helper.append(indexed_page)
+    return json.dumps(indexed_pages_helper, indent=2)
 
 
-index_html = Soup(get_html(wiki_url), 'html.parser')
+def generate_indexed_headers(file_url):
+    html_item = Soup(get_html(file_url), 'html.parser')
+    indexed_headers_helper = []
+    content = html_item.find("div", class_="content")
+    main = content.main
+    highlighted_strings = []
+    all_in_main = main.find_all(search_condition)
+    all_in_main.reverse()
+    for found_item in all_in_main:
+        if is_header(found_item):
+            item_url = found_item.a['href']
+            item_url = urllib.parse.quote(item_url, '/#')
+            full_url = file_url + item_url
+            indexed_page = IndexedHeader(found_item.a.get_text(), full_url, highlighted_strings)
+            indexed_headers_helper.append(indexed_page)
+            highlighted_strings = []
 
-index = generate_index(index_html)
+        highlighted_strings.append(found_item.get_text())
+    return indexed_headers_helper
 
-print(index)
+
+def is_header(element):
+    if element.a is None:
+        return False
+    header_link = element.a
+    return header_link.has_attr('class') and header_link['class'].count('header') > 0
+
+
+def search_condition(element):
+    if element.name == "strong" or element.name == "code" or is_header(element):
+        return True
+    return False
+
+
+with open("wiki_index.json", "w") as outfile:  # TODO: optional file_name parameter
+    outfile.write(generate_page_index(wiki_url))
