@@ -11,7 +11,7 @@ inputs:
     required: false
 branding:
   icon: 'file-text'
-  color: 'pink'
+  color: 'blue'
 runs:
   using: 'composite'
   steps:
