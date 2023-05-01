@@ -1,6 +1,6 @@
 # action.yaml
-name: 'Custom GitHub Action'
-description: 'A GitHub Action that takes an input and returns the square of the number'
+name: 'mdBook to JSON file'
+description: 'A GitHub Action that takes an mdBook url input and generates an indexed JSON file of all pages.'
 inputs:
   mbBook_url:
     description: 'Enter url to mdBook based wiki'
@@ -9,6 +9,9 @@ inputs:
   output_file:
     description: 'Enter desired file path'
     required: false
+branding:
+  icon: 'file-text'
+  color: 'blue'
 runs:
   using: 'composite'
   steps:
