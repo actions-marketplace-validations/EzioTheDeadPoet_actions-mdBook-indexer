@@ -82,6 +82,10 @@ def search_condition(element):
     return False
 
 
+output_file = sys.argv[0].replace("generate_index_JSON.py", output_file)
+
+print("The indexed data will be stored into:\n"+output_file)
+
 with open(output_file, "w") as outfile:
     outfile.write(generate_page_index(wiki_url))
-    print("Indexing complete.\nStored into:\n"+output_file)
+    print("Indexing complete.\n")
