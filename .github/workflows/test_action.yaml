@@ -20,4 +20,4 @@ jobs:
           # uses: shipyard/github-action/fetch-shipyard-env@1.0.0
           with:
             wiki_url: https://wiki.wabbajack.org/
-            output_file: ./book/example_output.json
+            output_file: example_output.json
