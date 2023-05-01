@@ -10,9 +10,9 @@ if len(sys.argv) < 2:
     print("missing arguments: mbBook_url output_file(optional)")
     exit(-1)
 
-wiki_url = sys.argv[1]
+mdBook_url = sys.argv[1]
 
-output_file = "../wiki_index.json"
+output_file = "mbBook_index.json"
 
 if len(sys.argv) >= 3:
     output_file = sys.argv[2]
@@ -90,5 +90,5 @@ p = Path(os.path.dirname(output_file))
 p.mkdir(exist_ok=True)
 
 with open(output_file, "w") as outfile:
-    outfile.write(generate_page_index(wiki_url))
+    outfile.write(generate_page_index(mdBook_url))
     print("Indexing complete.\n")
