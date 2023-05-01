@@ -20,10 +20,10 @@ runs:
       with:
         python-version: '3.10'  
     - name: Install Dependency "requests"
-      run: pip install -r requests
+      run: pip install requests
       shell: bash
     - name: Install Dependencies "beautifulsoup4"
-      run: pip install -r beautifulsoup4
+      run: pip install beautifulsoup4
       shell: bash
     - name: Check out repo
       uses: actions/checkout@v2
