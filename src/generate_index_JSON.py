@@ -84,7 +84,7 @@ def search_condition(element):
     return False
 
 
-output_file = sys.argv[0].replace("generate_index_JSON.py", "json_index\\" + output_file)
+output_file = sys.argv[0].replace("generate_index_JSON.py", "json_index/" + output_file)
 
 print("The indexed data will be stored into:\n" + output_file)
 
