@@ -9,6 +9,9 @@ inputs:
   output_file:
     description: 'Enter desired file path'
     required: false
+branding:
+  icon: 'file-text'
+  color: 'pink'
 runs:
   using: 'composite'
   steps:
