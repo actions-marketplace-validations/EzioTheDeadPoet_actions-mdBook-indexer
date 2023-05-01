@@ -1,7 +1,9 @@
+import os
 import sys
 import requests  # Installed
 import urllib.parse
 import json
+from pathlib import Path
 from bs4 import BeautifulSoup as Soup  # Installed
 
 if len(sys.argv) < 2:
@@ -82,9 +84,10 @@ def search_condition(element):
     return False
 
 
-output_file = sys.argv[0].replace("generate_index_JSON.py", output_file)
-
 print("The indexed data will be stored into:\n"+output_file)
+
+p = Path(os.path.dirname(output_file))
+p.mkdir(exist_ok=True)
 
 with open(output_file, "w") as outfile:
     outfile.write(generate_page_index(wiki_url))
