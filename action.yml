@@ -21,5 +21,5 @@ runs:
       shell: bash
     - name: Index mdBook to JSON
       id: index_task
-      run: python src/generate_index_JSON.py inputs.wiki_url inputs.output_file
+      run: python src/generate_index_JSON.py ${{ inputs.wiki_url }} ${{ inputs.output_file }}
       shell: bash
