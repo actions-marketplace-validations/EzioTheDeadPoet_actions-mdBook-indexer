@@ -7,7 +7,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup as Soup  # Installed
 
 if len(sys.argv) < 2:
-    print("missing arguments: wiki_url output_file(optional)")
+    print("missing arguments: mbBook_url output_file(optional)")
     exit(-1)
 
 wiki_url = sys.argv[1]

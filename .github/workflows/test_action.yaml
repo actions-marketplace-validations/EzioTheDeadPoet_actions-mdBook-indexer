@@ -19,7 +19,7 @@ jobs:
           # or use a released GitHub Action
           # uses: shipyard/github-action/fetch-shipyard-env@1.0.0
           with:
-            wiki_url: https://wiki.wabbajack.org/
+            mbBook_url: https://wiki.wabbajack.org/
             output_file: example_output.json
         - name: Deploy Data
           uses: peaceiris/actions-gh-pages@v3

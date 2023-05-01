@@ -2,7 +2,7 @@
 name: 'Custom GitHub Action'
 description: 'A GitHub Action that takes an input and returns the square of the number'
 inputs:
-  wiki_url:
+  mbBook_url:
     description: 'Enter url to mdBook based wiki'
     required: true
     default: "https://rust-lang.github.io/mdBook/"
@@ -25,5 +25,5 @@ runs:
         fetch-depth: 0
     - name: Index mdBook to JSON
       id: index_task
-      run: python src/generate_index_JSON.py ${{ inputs.wiki_url }} json_index/${{ inputs.output_file }}
+      run: python src/generate_index_JSON.py ${{ inputs.mbBook_url }} json_index/${{ inputs.output_file }}
       shell: bash
