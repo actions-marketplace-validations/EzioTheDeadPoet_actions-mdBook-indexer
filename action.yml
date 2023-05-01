@@ -29,7 +29,7 @@ runs:
         fetch-depth: 0
     - name: Index mdBook to JSON
       id: index_task
-      run: python src/generate_index_JSON.py ${{ inputs.wiki_url }} ./json_index/${{ inputs.output_file }}
+      run: python src/generate_index_JSON.py ${{ inputs.wiki_url }} json_index/${{ inputs.output_file }}
       shell: bash
     - name: Deploy Data
           uses: peaceiris/actions-gh-pages@v3
