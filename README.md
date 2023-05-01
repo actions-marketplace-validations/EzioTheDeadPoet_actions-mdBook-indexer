@@ -29,6 +29,6 @@ jobs:
           uses: peaceiris/actions-gh-pages@v3
           with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: ./json_index
+            publish_dir: ./json_index # the path the where this action will put it's files
             publish_branch: index_json
 ```
