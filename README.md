@@ -21,7 +21,7 @@ jobs:
           uses: actions/checkout@v2
         - name: Index mdBook 
           id: mdBook_site_to_JSON
-          uses: #TODO release github action
+          uses: EzioTheDeadPoet/actions-mdBook-indexer@v1
           with:
             mdBook_url: https://wiki.wabbajack.org/ # URL to the hosted mdBook
             output_file: example_output.json # Desired output name (optional with default: mdBook_index.json)
