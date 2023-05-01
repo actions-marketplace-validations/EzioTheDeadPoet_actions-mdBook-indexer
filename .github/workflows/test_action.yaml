@@ -11,8 +11,6 @@ jobs:
       runs-on: ubuntu-latest
       name: Testing functionality
       steps:
-        - name: Checkout
-          uses: actions/checkout@v2
         - name: Index mdBook 
           id: mdBook_site_to_JSON
           uses: ./ # Uses an action in the root directory
