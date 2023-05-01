@@ -1,0 +1,25 @@
+# action.yaml
+name: 'Custom GitHub Action'
+description: 'A GitHub Action that takes an input and returns the square of the number'
+inputs:
+  wiki_url:
+    description: 'Enter url to mdBook based wiki'
+    required: true
+    default: "https://rust-lang.github.io/mdBook/"
+  output_file:
+    description: 'Enter desired file path'
+    required: false
+runs:
+  using: 'composite'
+  steps:
+    - name: Install Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'  
+    - name: Install Dependencies
+      run: pip install -r requirements.txt
+      shell: bash
+    - name: Index mdBook to JSON
+      id: index_task
+      run: python src/generate_index_JSON.py inputs.wiki_url inputs.output_file
+      shell: bash

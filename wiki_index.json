@@ -1,0 +1,1149 @@
+[
+  {
+    "name": "Wabbajack Wiki",
+    "href": "https://wiki.wabbajack.org/../index.html",
+    "indexed_headers": [
+      {
+        "header": "Thanks to",
+        "href": "https://wiki.wabbajack.org/../index.html#thanks-to",
+        "highlighted_strings": []
+      },
+      {
+        "header": "Contributing",
+        "href": "https://wiki.wabbajack.org/../index.html#contributing",
+        "highlighted_strings": [
+          "Thanks to",
+          "CONTRIBUTING.md"
+        ]
+      },
+      {
+        "header": "License & Copyright",
+        "href": "https://wiki.wabbajack.org/../index.html#license--copyright",
+        "highlighted_strings": [
+          "Contributing"
+        ]
+      },
+      {
+        "header": "For Mod Authors",
+        "href": "https://wiki.wabbajack.org/../index.html#for-mod-authors",
+        "highlighted_strings": [
+          "License & Copyright",
+          "What if my mod is not on the Nexus?",
+          "Will the end user even know they use my mod?",
+          "How can I opt out of having my mod be included in a Modlist?",
+          "How does Wabbajack download mods from the Nexus?"
+        ]
+      },
+      {
+        "header": "FAQ",
+        "href": "https://wiki.wabbajack.org/../index.html#faq",
+        "highlighted_strings": [
+          "For Mod Authors",
+          "Can I accept donations for my installer?",
+          "Can I charge for a Wabbajack Modlist I created?",
+          "How does Wabbajack differ from Automaton?"
+        ]
+      },
+      {
+        "header": "Social Links",
+        "href": "https://wiki.wabbajack.org/../index.html#social-links",
+        "highlighted_strings": [
+          "FAQ"
+        ]
+      },
+      {
+        "header": "Wabbajack",
+        "href": "https://wiki.wabbajack.org/../index.html#wabbajack",
+        "highlighted_strings": [
+          "Social Links"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "1. Policies & License",
+    "href": "https://wiki.wabbajack.org/policies_and_license/Policies%20and%20License.html",
+    "indexed_headers": [
+      {
+        "header": "Policies & License",
+        "href": "https://wiki.wabbajack.org/policies_and_license/Policies%20and%20License.html#policies--license",
+        "highlighted_strings": []
+      }
+    ]
+  },
+  {
+    "name": "1.1. Wabbajack License",
+    "href": "https://wiki.wabbajack.org/policies_and_license/Wabbajack%20License.html",
+    "indexed_headers": [
+      {
+        "header": "Wabbajack License",
+        "href": "https://wiki.wabbajack.org/policies_and_license/Wabbajack%20License.html#wabbajack-license",
+        "highlighted_strings": [
+          "Note"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "1.2. Wabbajack Monetization Policy",
+    "href": "https://wiki.wabbajack.org/policies_and_license/Wabbajack%20Monetization%20Policy.html",
+    "indexed_headers": [
+      {
+        "header": "YOU CAN:",
+        "href": "https://wiki.wabbajack.org/policies_and_license/Wabbajack%20Monetization%20Policy.html#you-can",
+        "highlighted_strings": [
+          "immediately",
+          "YOU MUST",
+          "MUST"
+        ]
+      },
+      {
+        "header": "YOU CANNOT:",
+        "href": "https://wiki.wabbajack.org/policies_and_license/Wabbajack%20Monetization%20Policy.html#you-cannot",
+        "highlighted_strings": [
+          "YOU CAN:"
+        ]
+      },
+      {
+        "header": "Wabbajack Policy on Monetisation",
+        "href": "https://wiki.wabbajack.org/policies_and_license/Wabbajack%20Monetization%20Policy.html#wabbajack-policy-on-monetisation",
+        "highlighted_strings": [
+          "YOU CANNOT:"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "2. Supported Games and Mod Managers",
+    "href": "https://wiki.wabbajack.org/user_documentation/Supported%20Games%20and%20Mod%20Managers.html",
+    "indexed_headers": [
+      {
+        "header": "Supported Mod Mangers",
+        "href": "https://wiki.wabbajack.org/user_documentation/Supported%20Games%20and%20Mod%20Managers.html#supported-mod-mangers",
+        "highlighted_strings": []
+      },
+      {
+        "header": "Supported Games",
+        "href": "https://wiki.wabbajack.org/user_documentation/Supported%20Games%20and%20Mod%20Managers.html#supported-games",
+        "highlighted_strings": [
+          "Supported Mod Mangers",
+          "Platform-locked",
+          "will",
+          "Experimental"
+        ]
+      },
+      {
+        "header": "Supported Games and Mod Managers",
+        "href": "https://wiki.wabbajack.org/user_documentation/Supported%20Games%20and%20Mod%20Managers.html#supported-games-and-mod-managers",
+        "highlighted_strings": [
+          "Supported Games"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "3. Installing a Modlist",
+    "href": "https://wiki.wabbajack.org/user_documentation/Installing%20a%20Modlist.html",
+    "indexed_headers": [
+      {
+        "header": "Installing a Modlist",
+        "href": "https://wiki.wabbajack.org/user_documentation/Installing%20a%20Modlist.html#installing-a-modlist",
+        "highlighted_strings": [
+          "Target Modlist",
+          "install from disk",
+          "The core procedure for using a downloaded .wabbajack file:",
+          "The core procedure for using the Gallery is:"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "4. Troubleshooting FAQ",
+    "href": "https://wiki.wabbajack.org/user_documentation/Troubleshooting%20FAQ.html",
+    "indexed_headers": [
+      {
+        "header": "Don't run as Admin!",
+        "href": "https://wiki.wabbajack.org/user_documentation/Troubleshooting%20FAQ.html#dont-run-as-admin",
+        "highlighted_strings": [
+          "\"But I am not running it as Admin\""
+        ]
+      },
+      {
+        "header": "Wabbajack Extraction Errors",
+        "href": "https://wiki.wabbajack.org/user_documentation/Troubleshooting%20FAQ.html#wabbajack-extraction-errors",
+        "highlighted_strings": [
+          "Don't run as Admin!",
+          "[ERROR] (Wabbajack.InstallerVM) Sanity check error extracting",
+          "Sanity Check Error"
+        ]
+      },
+      {
+        "header": "Wabbajack Modlists not loading or downloading",
+        "href": "https://wiki.wabbajack.org/user_documentation/Troubleshooting%20FAQ.html#wabbajack-modlists-not-loading-or-downloading",
+        "highlighted_strings": [
+          "Wabbajack Extraction Errors",
+          "Killer Intelligence Center",
+          "Killer Control Centre",
+          "Conflicting Network Settings/Apps"
+        ]
+      },
+      {
+        "header": "Wabbajack shows a black screen when trying to X",
+        "href": "https://wiki.wabbajack.org/user_documentation/Troubleshooting%20FAQ.html#wabbajack-shows-a-black-screen-when-trying-to-x",
+        "highlighted_strings": [
+          "Wabbajack Modlists not loading or downloading",
+          "Repair your windows installation",
+          "Install/Repair WebView2"
+        ]
+      },
+      {
+        "header": "Using Wabbajack",
+        "href": "https://wiki.wabbajack.org/user_documentation/Troubleshooting%20FAQ.html#using-wabbajack",
+        "highlighted_strings": [
+          "Wabbajack shows a black screen when trying to X"
+        ]
+      },
+      {
+        "header": "Wabbjack refusing to launch",
+        "href": "https://wiki.wabbajack.org/user_documentation/Troubleshooting%20FAQ.html#wabbjack-refusing-to-launch",
+        "highlighted_strings": [
+          "Using Wabbajack",
+          "Wabbajack.exe",
+          "X.X.X.X",
+          "X.X.X.X.zip",
+          "Wabbajack",
+          "Wabbajack.exe",
+          "X.X.X.X.zip",
+          "Manually Install Wabbjack",
+          "NOT",
+          "%appdata%",
+          "NOT",
+          "%localappdata%",
+          "Important:",
+          "%localappdata%",
+          "Windows + R",
+          "Reset Your Wabbajack Installation"
+        ]
+      },
+      {
+        "header": "Wabbajack Setup",
+        "href": "https://wiki.wabbajack.org/user_documentation/Troubleshooting%20FAQ.html#wabbajack-setup",
+        "highlighted_strings": [
+          "Wabbjack refusing to launch"
+        ]
+      },
+      {
+        "header": "Troubleshooting FAQ",
+        "href": "https://wiki.wabbajack.org/user_documentation/Troubleshooting%20FAQ.html#troubleshooting-faq",
+        "highlighted_strings": [
+          "Wabbajack Setup"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "5. Compilation",
+    "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation.html",
+    "indexed_headers": [
+      {
+        "header": "Compilation",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation.html#compilation",
+        "highlighted_strings": []
+      }
+    ]
+  },
+  {
+    "name": "5.1. Introduction",
+    "href": "https://wiki.wabbajack.org/modlist_author_documentation/Introduction.html",
+    "indexed_headers": [
+      {
+        "header": "Requirements",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Introduction.html#requirements",
+        "highlighted_strings": [
+          "hard requirement",
+          "portable"
+        ]
+      },
+      {
+        "header": "Introduction",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Introduction.html#introduction",
+        "highlighted_strings": [
+          "Requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "5.2. Pre-Compilation",
+    "href": "https://wiki.wabbajack.org/modlist_author_documentation/Pre-Compilation.html",
+    "indexed_headers": [
+      {
+        "header": "Multiple MO2 Profiles",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Pre-Compilation.html#multiple-mo2-profiles",
+        "highlighted_strings": [
+          "Performance\n",
+          "MO2\\profiles\\SFW\\otherprofiles.txt",
+          "Main",
+          "Performance",
+          "Main",
+          "Example",
+          "otherprofiles.txt"
+        ]
+      },
+      {
+        "header": "Tagfile Tags (Superseded)",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Pre-Compilation.html#tagfile-tags-superseded",
+        "highlighted_strings": [
+          "Multiple MO2 Profiles",
+          ".wabbajack",
+          "WABBAJACK_IGNORE_FILES.txt",
+          ".wabbajack",
+          "WABBAJACK_NOMATCH_INCLUDE_FILES.txt",
+          ".wabbajack",
+          "WABBAJACK_INCLUDE_SAVES",
+          ".wabbajack",
+          "WABBAJACK_IGNORE",
+          ".wabbajack",
+          "WABBAJACK_NOMATCH_INCLUDE",
+          ".wabbajack",
+          "DO NOT USE ON DOWNLOADED MODS",
+          ".wabbajack",
+          "WABBAJACK_INCLUDE",
+          "tagfile"
+        ]
+      },
+      {
+        "header": "Special Flags (Superseded)",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Pre-Compilation.html#special-flags-superseded",
+        "highlighted_strings": [
+          "Tagfile Tags (Superseded)",
+          "WABBAJACK_ALWAYS_DISABLE",
+          "WABBAJACK_ALWAYS_ENABLE",
+          ".wabbajack",
+          "WABBAJACK_NOMATCH_INCLUDE",
+          ".wabbajack",
+          "DO NOT USE ON DOWNLOADED MODS",
+          ".wabbajack",
+          "WABBAJACK_INCLUDE"
+        ]
+      },
+      {
+        "header": "Configurations Superseded by Compiler Settings within the Wabbajack App",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Pre-Compilation.html#configurations-superseded-by-compiler-settings-within-the-wabbajack-app",
+        "highlighted_strings": [
+          "Special Flags (Superseded)",
+          "IMPORTANT: The following method has been superseded. It may still be used to guarantee backwards compatibility for compiling lists made for Wabbajack 2.5 with Wabbajack 3.0. The new method to manage these options is described in Compilation - Settings."
+        ]
+      },
+      {
+        "header": "Minimal Downloads Folder",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Pre-Compilation.html#minimal-downloads-folder",
+        "highlighted_strings": [
+          "Configurations Superseded by Compiler Settings within the Wabbajack App",
+          "delete unused downloads and previous versions of mods from your downloads folder frequently"
+        ]
+      },
+      {
+        "header": "Merges",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Pre-Compilation.html#merges",
+        "highlighted_strings": [
+          "Minimal Downloads Folder",
+          "No Match Include"
+        ]
+      },
+      {
+        "header": "BSA Decomposition",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Pre-Compilation.html#bsa-decomposition",
+        "highlighted_strings": [
+          "Merges",
+          ".ba2",
+          ".bsa",
+          "analyze and create"
+        ]
+      },
+      {
+        "header": "Patches",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Pre-Compilation.html#patches",
+        "highlighted_strings": [
+          "BSA Decomposition",
+          ".wabbajack",
+          "patch",
+          "original + patch = final"
+        ]
+      },
+      {
+        "header": "Mod Organizer 2",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Pre-Compilation.html#mod-organizer-2",
+        "highlighted_strings": [
+          "Patches",
+          ".meta",
+          ".meta"
+        ]
+      },
+      {
+        "header": "Everything Comes from Somewhere",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Pre-Compilation.html#everything-comes-from-somewhere",
+        "highlighted_strings": [
+          "Mod Organizer 2",
+          ".meta",
+          ".meta",
+          "Downloads",
+          "Query Info",
+          "Query Info",
+          ".meta",
+          "MOD MANAGER DOWNLOAD",
+          "MOD MANAGER DOWNLOAD",
+          "should",
+          ".meta",
+          "gameName",
+          "modID",
+          "fileID",
+          ".meta",
+          "MOD MANAGER DOWNLOAD",
+          "MOD MANAGER DOWNLOAD",
+          ".meta",
+          "SkyUI_5_1-3863-5-1.7z.meta",
+          "SkyUI_5_1-3863-5-1.7z",
+          ".meta",
+          ".rar",
+          ".zip",
+          ".7z",
+          "every single file"
+        ]
+      },
+      {
+        "header": "Pre-Compilation",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Pre-Compilation.html#pre-compilation",
+        "highlighted_strings": [
+          "Everything Comes from Somewhere"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "5.3. Meta Files",
+    "href": "https://wiki.wabbajack.org/modlist_author_documentation/Meta%20Files.html",
+    "indexed_headers": [
+      {
+        "header": "Reference Table",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Meta%20Files.html#reference-table",
+        "highlighted_strings": [
+          "manualURL"
+        ]
+      },
+      {
+        "header": "IPS4 sites",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Meta%20Files.html#ips4-sites",
+        "highlighted_strings": [
+          "Reference Table",
+          "Note",
+          "manualURL",
+          "Note",
+          "[General]\nips4Site=Lovers Lab\nips4Mod=11116\nips4File=WABBAJACK_TEST_FILE.zip\n",
+          ".meta",
+          "ips4File",
+          "11116",
+          "ips4Mod",
+          "Lovers Lab",
+          "Vector Plexus",
+          "ips4Site",
+          "[General]\nips4Site=<Site Name>\nips4Mod=<modID>\nips4File=<filename>\n",
+          ".meta",
+          "(1)",
+          "https://www.loverslab.com/files/file/11116-test-file-for-wabbajack-integration",
+          ".meta"
+        ]
+      },
+      {
+        "header": "manualURL",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Meta%20Files.html#manualurl",
+        "highlighted_strings": [
+          "IPS4 sites",
+          "manualURL",
+          "Note",
+          "manualURL=https://foo.bar.bz/someFile.zip\nprompt=Please download the second file on this page\n",
+          ".meta",
+          "manualURL"
+        ]
+      },
+      {
+        "header": "directURL",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Meta%20Files.html#directurl",
+        "highlighted_strings": [
+          "manualURL",
+          "[General]\ndirectURL=https://skse.silverlock.org/beta/skse64_2_00_20.7z\ninstalled=true\n",
+          ".meta",
+          "directURL=link",
+          ".meta",
+          "directURL"
+        ]
+      },
+      {
+        "header": "Non-Nexus .meta Files",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Meta%20Files.html#non-nexus-meta-files",
+        "highlighted_strings": [
+          "directURL",
+          "case-sensitive",
+          ".meta",
+          "[General]",
+          ".meta",
+          ".meta"
+        ]
+      },
+      {
+        "header": "Introduction",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Meta%20Files.html#introduction",
+        "highlighted_strings": [
+          "Non-Nexus .meta Files",
+          "Query Info",
+          "Query Info",
+          ".meta",
+          "[General]\ngameName=Skyrim\nmodID=3863\nfileID=1000172397\n",
+          ".meta"
+        ]
+      },
+      {
+        "header": "Meta Files",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Meta%20Files.html#meta-files",
+        "highlighted_strings": [
+          "Introduction"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "5.4. Keeping the Game Folder clean",
+    "href": "https://wiki.wabbajack.org/modlist_author_documentation/Keeping%20the%20Game%20Folder%20clean.html",
+    "indexed_headers": [
+      {
+        "header": "Final Setup",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Keeping%20the%20Game%20Folder%20clean.html#final-setup",
+        "highlighted_strings": [
+          "Stock Game",
+          ".dll"
+        ]
+      },
+      {
+        "header": "Optimization",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Keeping%20the%20Game%20Folder%20clean.html#optimization",
+        "highlighted_strings": [
+          "Final Setup",
+          "unofficial performance optimized textures",
+          ".BSA",
+          "Stock Game\\\\Data",
+          ".ESM",
+          ".ESM"
+        ]
+      },
+      {
+        "header": "Preperation",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Keeping%20the%20Game%20Folder%20clean.html#preperation",
+        "highlighted_strings": [
+          "Optimization",
+          "c:\\\\Path\\\\To\\\\MO2\\\\Stock Game",
+          "GamePath=",
+          "Mod Organizer.ini",
+          "Skyrim Special Edition",
+          "Game Folder Files",
+          "Stock Game"
+        ]
+      },
+      {
+        "header": "Stock Game",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Keeping%20the%20Game%20Folder%20clean.html#stock-game",
+        "highlighted_strings": [
+          "Preperation"
+        ]
+      },
+      {
+        "header": "RootBuilder",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Keeping%20the%20Game%20Folder%20clean.html#rootbuilder",
+        "highlighted_strings": [
+          "Stock Game"
+        ]
+      },
+      {
+        "header": "Overview",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Keeping%20the%20Game%20Folder%20clean.html#overview",
+        "highlighted_strings": [
+          "RootBuilder",
+          "must"
+        ]
+      },
+      {
+        "header": "Keeping the Game Folder clean",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Keeping%20the%20Game%20Folder%20clean.html#keeping-the-game-folder-clean",
+        "highlighted_strings": [
+          "Overview"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "5.5. Native-Game-Installer - (Installers not using MO2)",
+    "href": "https://wiki.wabbajack.org/modlist_author_documentation/Native-Game-Installer%20-%20%28Installers%20not%20using%20MO2%29.html",
+    "indexed_headers": [
+      {
+        "header": "Opening Wabbajack to Compile the List",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Native-Game-Installer%20-%20%28Installers%20not%20using%20MO2%29.html#opening-wabbajack-to-compile-the-list",
+        "highlighted_strings": []
+      },
+      {
+        "header": "Building Your Setup",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Native-Game-Installer%20-%20%28Installers%20not%20using%20MO2%29.html#building-your-setup",
+        "highlighted_strings": [
+          "Opening Wabbajack to Compile the List"
+        ]
+      },
+      {
+        "header": "Creating the .compiler_settings File",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Native-Game-Installer%20-%20%28Installers%20not%20using%20MO2%29.html#creating-the-compiler_settings-file",
+        "highlighted_strings": [
+          "Building Your Setup",
+          "repositoryName/machineUrl",
+          "\"ModListWebsite\":",
+          "\"ModListReadme\":",
+          "\"ModListAuthor\":",
+          "\"ModListName\":",
+          "\"ModListImage\"",
+          ".wabbajack",
+          "\"OutputFile\":",
+          "\"Game\"",
+          "\"Downloads\":",
+          ".compiler_settings",
+          "\"Source\":",
+          "{\n    \"ModlistIsNSFW\": false,\n    \"Source\": \"F:\\\\Wabbajack Modlists Maintenance\\\\Dishonored 1.1\",\n    \"Downloads\": \"E:\\\\Wabbajack Modlist Maintenance\\\\.Download Folders\\\\Dishonored\",\n    \"Game\": \"Dishonored\",\n    \"OutputFile\": \"F:\\\\Wabbajack Modlists Maintenance\",\n    \"ModListImage\": \"F:\\\\Wabbajack Modlists Maintenance\\\\Dishonored 1.1\\thumbnail.png\",\n    \"UseGamePaths\": true,\n    \"UseTextureRecompression\": false,\n    \"OtherGames\": [],\n    \"MaxVerificationTime\": \"00:01:00\",\n    \"ModListName\": \"Listname\",\n    \"ModListAuthor\": \"AuthorName\",\n    \"ModListDescription\": \"\",\n    \"ModListReadme\": \"\",\n    \"ModListWebsite\": \"\",\n    \"ModlistVersion\": \"1.0.0.0\",\n    \"PublishUpdate\": false,\n    \"MachineUrl\": \"\",\n    \"Profile\": \"\",\n    \"AdditionalProfiles\": [],\n    \"NoMatchInclude\": [],\n    \"Include\": [],\n    \"Ignore\": [],\n    \"AlwaysEnabled\": [],\n    \"Version\": \"1.0.0\",\n    \"Description\": \"\"\n}\n",
+          ".compiler_settings"
+        ]
+      },
+      {
+        "header": "Preparing the Modlist Folder",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Native-Game-Installer%20-%20%28Installers%20not%20using%20MO2%29.html#preparing-the-modlist-folder",
+        "highlighted_strings": [
+          "Creating the .compiler_settings File",
+          "downloads",
+          "downloads"
+        ]
+      },
+      {
+        "header": "Native-Game-Installer (Installers not using MO2)",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Native-Game-Installer%20-%20%28Installers%20not%20using%20MO2%29.html#native-game-installer-installers-not-using-mo2",
+        "highlighted_strings": [
+          "Preparing the Modlist Folder",
+          "Warning"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "5.6. Compilation Settings",
+    "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation%20Settings.html",
+    "indexed_headers": [
+      {
+        "header": "Compilation Errors",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation%20Settings.html#compilation-errors",
+        "highlighted_strings": [
+          "#modlist-development-help"
+        ]
+      },
+      {
+        "header": "Wabbajack Compilation Configuration Editor",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation%20Settings.html#wabbajack-compilation-configuration-editor",
+        "highlighted_strings": [
+          "Compilation Errors",
+          ".wabbajack",
+          ".wabbajack",
+          "DO NOT USE ON DOWNLOADED MODS",
+          "JohnsLists/JohnsSkyrimMakeover",
+          "Publish Update",
+          "machineURL",
+          "REQUIRED:",
+          "must",
+          "REQUIRED:",
+          "REQUIRED:"
+        ]
+      },
+      {
+        "header": "Output Location",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation%20Settings.html#output-location",
+        "highlighted_strings": [
+          "Wabbajack Compilation Configuration Editor",
+          ".wabbajack"
+        ]
+      },
+      {
+        "header": "Download Location",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation%20Settings.html#download-location",
+        "highlighted_strings": [
+          "Output Location",
+          ".meta"
+        ]
+      },
+      {
+        "header": "Find or Generate Your .compiler_settings",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation%20Settings.html#find-or-generate-your-compiler_settings",
+        "highlighted_strings": [
+          "Download Location",
+          "ModlistName.compiler_settings",
+          "Compiler Settings File (.compiler_settings)",
+          "MO2 Modlist (.txt)",
+          ".compiler_settings",
+          "modlist.txt",
+          "profiles/{profile_name}/",
+          "Compiler Settings",
+          ".compiler_settings"
+        ]
+      },
+      {
+        "header": "Compilation Settings",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation%20Settings.html#compilation-settings",
+        "highlighted_strings": [
+          "Find or Generate Your .compiler_settings"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "5.7. Wabbajack CLI",
+    "href": "https://wiki.wabbajack.org/wabbajack_cli/Commands.html",
+    "indexed_headers": [
+      {
+        "header": "Wabbajack CLI",
+        "href": "https://wiki.wabbajack.org/wabbajack_cli/Commands.html#wabbajack-cli",
+        "highlighted_strings": [
+          "Usage:\n  wabbajack-cli [command] [options]\n\nOptions:\n  --version       Show version information\n  -?, -h, --help  Show help and usage information\n\nCommands:\n  compile                         Compiles a modlist\n  decrypt                         Decrypts a file from the wabbajack encrypted storage\n  download-all                    Downloads all files for all modlists in the gallery\n  download-url                    Downloads a file to a given output\n  dump-zip-info                   Dumps the contents of a zip file to the console, for use in debugging wabbajack\n                                  files\n  encrypt                         Encrypts a file and stores it in the Wabbajack encrypted storage\n  extract                         Extracts the contents of an archive into a folder\n  force-heal                      Creates a patch from New file to Old file and uploads it\n  hash-file                       Hashes a file with Wabbajack's hashing routines\n  hash-url-string                 Hashes a URL string and returns the hashcode as hex\n  install                         Installs a wabbajack file\n  install-compile-install-verify  Installs a modlist, compiles it, installs it again, verifies it\n  list-creation-club-content      Lists all known creation club content\n  list-games                      Lists all games Wabbajack recognizes, and their installed versions/locations (if\n                                  any)\n  list-modlists                   Lists all known modlists\n  mirror-file                     Mirrors a file to the Wabbajack CDN\n  modlist-report                  Generates a usage report for a Modlist file\n  steam-download-file             Dumps information to the console about the given app\n  steam-app-dump-info             Dumps information to the console about the given app\n  steam-login                     Logs into Steam via interactive prompts\n  upload-to-nexus                 Uploads a file to the Nexus defined by the given .json definition file\n  validate-lists                  Gets a list of modlists, validates them and exports a result list\n  verify-modlist-install          Verify a modlist installed correctly\n  vfs-index                       Index and cache the contents of a folder\n"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "5.8. Post-Compilation",
+    "href": "https://wiki.wabbajack.org/modlist_author_documentation/Post-Compilation.html",
+    "indexed_headers": [
+      {
+        "header": "Post-Compilation",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Post-Compilation.html#post-compilation",
+        "highlighted_strings": [
+          "CHANGELOG.md",
+          "Changelog",
+          "MCM",
+          "Important mods you should know about",
+          "Installation",
+          "Requirements",
+          "Preamble",
+          "Show Unofficial Lists",
+          ".wabbajack"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "6. Wabbajack CDN & Gallery Access",
+    "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Wabbajack%20CDN%20%26%20Gallery%20Access.html",
+    "indexed_headers": [
+      {
+        "header": "Wabbajack CDN & Gallery Access",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Wabbajack%20CDN%20%26%20Gallery%20Access.html#wabbajack-cdn--gallery-access",
+        "highlighted_strings": []
+      }
+    ]
+  },
+  {
+    "name": "6.1. Getting CDN Access",
+    "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Getting%20CDN%20Access.html",
+    "indexed_headers": [
+      {
+        "header": "Final Notes",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Getting%20CDN%20Access.html#final-notes",
+        "highlighted_strings": []
+      },
+      {
+        "header": "Using CDN files",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Getting%20CDN%20Access.html#using-cdn-files",
+        "highlighted_strings": [
+          "Final Notes",
+          "[General]\ndirectURL=<link you copied goes here>\n",
+          ".meta",
+          ".meta",
+          "copy link",
+          "Note:"
+        ]
+      },
+      {
+        "header": "Using the CDN",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Getting%20CDN%20Access.html#using-the-cdn",
+        "highlighted_strings": [
+          "Using CDN files",
+          "Manage Files",
+          "Upload",
+          "Select",
+          "File Uploader",
+          "Settings",
+          "Wabbajack"
+        ]
+      },
+      {
+        "header": "Installing the token",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Getting%20CDN%20Access.html#installing-the-token",
+        "highlighted_strings": [
+          "Using the CDN",
+          "author-api-key.txt",
+          "c:\\Users\\<your user name>\\AppData\\Local\\Wabbajack"
+        ]
+      },
+      {
+        "header": "Creating a Token",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Getting%20CDN%20Access.html#creating-a-token",
+        "highlighted_strings": [
+          "Installing the token",
+          "modlist.json",
+          "Generate new token",
+          "Personal access tokens",
+          "Developer Settings",
+          "Settings"
+        ]
+      },
+      {
+        "header": "Getting CDN Access",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Getting%20CDN%20Access.html#getting-cdn-access",
+        "highlighted_strings": [
+          "Creating a Token"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "6.2. Adding a Custom Repository to Wabbajack",
+    "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Adding%20a%20Custom%20Repository%20to%20Wabbajack.html",
+    "indexed_headers": [
+      {
+        "header": "404 errors when uploading lists",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Adding%20a%20Custom%20Repository%20to%20Wabbajack.html#404-errors-when-uploading-lists",
+        "highlighted_strings": []
+      },
+      {
+        "header": "404 Error when updating a wj-featured/ list",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Adding%20a%20Custom%20Repository%20to%20Wabbajack.html#404-error-when-updating-a-wj-featured-list",
+        "highlighted_strings": [
+          "404 errors when uploading lists",
+          "wj-featured",
+          "wj-featured/"
+        ]
+      },
+      {
+        "header": "Namespaced list required",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Adding%20a%20Custom%20Repository%20to%20Wabbajack.html#namespaced-list-required",
+        "highlighted_strings": [
+          "404 Error when updating a wj-featured/ list",
+          "JohnsLists/JohnsSkyrimMakeover",
+          "JohnsSkyrimMakeover",
+          "JohnsLists",
+          "<repo>/<list-name>",
+          "machineURL"
+        ]
+      },
+      {
+        "header": "You do not have access to this list",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Adding%20a%20Custom%20Repository%20to%20Wabbajack.html#you-do-not-have-access-to-this-list",
+        "highlighted_strings": [
+          "Namespaced list required",
+          "\"github/JohnDoe\"",
+          "JohnDoe",
+          "github/"
+        ]
+      },
+      {
+        "header": "Common Errors",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Adding%20a%20Custom%20Repository%20to%20Wabbajack.html#common-errors",
+        "highlighted_strings": [
+          "You do not have access to this list"
+        ]
+      },
+      {
+        "header": "Adding your repository",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Adding%20a%20Custom%20Repository%20to%20Wabbajack.html#adding-your-repository",
+        "highlighted_strings": [
+          "Common Errors",
+          "Edit",
+          "Raw",
+          "modlists.json"
+        ]
+      },
+      {
+        "header": "Create a Github Repository",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Adding%20a%20Custom%20Repository%20to%20Wabbajack.html#create-a-github-repository",
+        "highlighted_strings": [
+          "Adding your repository",
+          "Commit new file",
+          "nsfw",
+          "force_down",
+          "https://raw.githubusercontent.com/user/repository/main/nameofimagefile.png",
+          "true",
+          "image_contains_title",
+          "_",
+          ".wabbajack.meta.json",
+          "download_metadata",
+          "Notes on the metadata above:",
+          "[\n  {\n    \"$type\": \"ModListMetadata, Wabbajack.Lib\",\n    \"title\": \"My Modlist\",\n    \"description\": \"Best thing since sliced bread\",\n    \"author\": \"<any name you want to show up in the UI>\",\n    \"maintainers\": [\n      \"github/<your github name>\"\n    ],\n    \"game\": \"skyrimspecialedition\",\n    \"tags\": [\n      \"testing\",\n      \"<any tags you want in the UI, each in its own string\"\n    ],\n    \"nsfw\": false,\n    \"image_contains_title\": false,\n    \"force_down\": false,\n    \"links\": {\n      \"$type\": \"Links, Wabbajack.Lib\",\n      \"image\": \"<link to an image to show in the UI>\",\n      \"readme\": \"<link to your readme for your modlist>\",\n      \"download\": \"https://authored-files.wabbajack.org/Halgaris Helper.wabbajack_29d245c9-5f7f-4394-b600-a22e43427337\",\n      \"machineURL\": \"machineURL\",\n      \"discordURL\": \"<your discord link here>\"\n    },\n    \"download_metadata\": {\n      \"$type\": \"DownloadMetadata, Wabbajack.Lib\",\n      \"Hash\": \"e1+K7eJbDJw=\",\n      \"Size\": 0,\n      \"NumberOfArchives\": 14,\n      \"SizeOfArchives\": 135206078,\n      \"NumberOfInstalledFiles\": 1311,\n      \"SizeOfInstalledFiles\": 336453775\n    },\n    \"version\": \"1.0\"\n  }\n]\n\n",
+          "modlists.json",
+          "Add file",
+          "Create repository",
+          "README.md",
+          "+"
+        ]
+      },
+      {
+        "header": "Adding a Custom Repository to Wabbajack",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Adding%20a%20Custom%20Repository%20to%20Wabbajack.html#adding-a-custom-repository-to-wabbajack",
+        "highlighted_strings": [
+          "Create a Github Repository"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "6.3. Criteria for 'Featured Mod List' status",
+    "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Criteria%20for%20%27Featured%20Mod%20List%27%20status.html",
+    "indexed_headers": [
+      {
+        "header": "Do not opt-in to Donation Points on the nexus for files that are not generic to modding",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Criteria%20for%20%27Featured%20Mod%20List%27%20status.html#do-not-opt-in-to-donation-points-on-the-nexus-for-files-that-are-not-generic-to-modding",
+        "highlighted_strings": []
+      },
+      {
+        "header": "If you fork a list, you must not advertise via their name unless given permission to do so",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Criteria%20for%20%27Featured%20Mod%20List%27%20status.html#if-you-fork-a-list-you-must-not-advertise-via-their-name-unless-given-permission-to-do-so",
+        "highlighted_strings": [
+          "Do not opt-in to Donation Points on the nexus for files that are not generic to modding"
+        ]
+      },
+      {
+        "header": "Modlists must have \"Open Permissions\"",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Criteria%20for%20%27Featured%20Mod%20List%27%20status.html#modlists-must-have-open-permissions",
+        "highlighted_strings": [
+          "If you fork a list, you must not advertise via their name unless given permission to do so"
+        ]
+      },
+      {
+        "header": "Skyrim should auto-downgrade",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Criteria%20for%20%27Featured%20Mod%20List%27%20status.html#skyrim-should-auto-downgrade",
+        "highlighted_strings": [
+          "Modlists must have \"Open Permissions\""
+        ]
+      },
+      {
+        "header": "Pay-walled mods",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Criteria%20for%20%27Featured%20Mod%20List%27%20status.html#pay-walled-mods",
+        "highlighted_strings": [
+          "Skyrim should auto-downgrade"
+        ]
+      },
+      {
+        "header": "Manual downloads outside of Wabbajack",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Criteria%20for%20%27Featured%20Mod%20List%27%20status.html#manual-downloads-outside-of-wabbajack",
+        "highlighted_strings": [
+          "Pay-walled mods",
+          "manualURL="
+        ]
+      },
+      {
+        "header": "Rejection Reasons",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Criteria%20for%20%27Featured%20Mod%20List%27%20status.html#rejection-reasons",
+        "highlighted_strings": [
+          "Manual downloads outside of Wabbajack"
+        ]
+      },
+      {
+        "header": "Criteria for 'Featured Mod List' status",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Criteria%20for%20%27Featured%20Mod%20List%27%20status.html#criteria-for-featured-mod-list-status",
+        "highlighted_strings": [
+          "Rejection Reasons"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "6.4. Repository Validation",
+    "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Repository%20Validation.html",
+    "indexed_headers": [
+      {
+        "header": "Merging Procedure",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Repository%20Validation.html#merging-procedure",
+        "highlighted_strings": [
+          ",",
+          "even if they are validated"
+        ]
+      },
+      {
+        "header": "General Information",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Repository%20Validation.html#general-information",
+        "highlighted_strings": [
+          "Merging Procedure"
+        ]
+      },
+      {
+        "header": "Repository Validation",
+        "href": "https://wiki.wabbajack.org/wabbajack_cdn_and_gallery_access/Repository%20Validation.html#repository-validation",
+        "highlighted_strings": [
+          "General Information",
+          "This section is important for everyone with merge permissions!"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "7. Compilation Issues FAQ",
+    "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation%20Issues%20FAQ.html",
+    "indexed_headers": [
+      {
+        "header": "Cannot find source for .meta files",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation%20Issues%20FAQ.html#cannot-find-source-for-meta-files",
+        "highlighted_strings": [
+          "If you want to keep it inside of MO2;",
+          "The sourced downloads folder is inside of MO2."
+        ]
+      },
+      {
+        "header": "Failed Compilation: Can't find game Morrowind",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation%20Issues%20FAQ.html#failed-compilation-cant-find-game-morrowind",
+        "highlighted_strings": [
+          "Cannot find source for .meta files",
+          "You are trying to compile a non Morrowind Modlist:",
+          "You are trying to compile a Modlist for Morrowind:"
+        ]
+      },
+      {
+        "header": "Error Codes",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation%20Issues%20FAQ.html#error-codes",
+        "highlighted_strings": [
+          "Failed Compilation: Can't find game Morrowind"
+        ]
+      },
+      {
+        "header": "Portable Instances",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation%20Issues%20FAQ.html#portable-instances",
+        "highlighted_strings": [
+          "Error Codes",
+          "downloads",
+          "mods",
+          "profiles",
+          "Importing a Global/Pseudo Portable Instance into a Portable one:",
+          "X.X.X",
+          " [General]\n installed=true\n directURL=https://github.com/ModOrganizer2/modorganizer/releases/download/vX.X.X/Mod.Organizer-X.X.X.7z\n",
+          "Mod.Organizer-X.X.X.7z.meta",
+          "Mod.Organizer-X.X.X.7z",
+          "downloads",
+          "ModOrganizer.exe",
+          "Mod.Organizer-X.X.X.7z",
+          "Setup a Portable Instance:"
+        ]
+      },
+      {
+        "header": "Mod Organizer Setup Issues",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation%20Issues%20FAQ.html#mod-organizer-setup-issues",
+        "highlighted_strings": [
+          "Portable Instances"
+        ]
+      },
+      {
+        "header": "Compilation Issues FAQ",
+        "href": "https://wiki.wabbajack.org/modlist_author_documentation/Compilation%20Issues%20FAQ.html#compilation-issues-faq",
+        "highlighted_strings": [
+          "Mod Organizer Setup Issues"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "8. Auto-healing & Force-healing Overview",
+    "href": "https://wiki.wabbajack.org/technical_talk/Auto-healing%20%26%20Force-healing%20Overview.html",
+    "indexed_headers": [
+      {
+        "header": "List Author Interaction",
+        "href": "https://wiki.wabbajack.org/technical_talk/Auto-healing%20%26%20Force-healing%20Overview.html#list-author-interaction",
+        "highlighted_strings": [
+          "config/forced_healing.json",
+          "wabbajack-cli.exe mirror-file -f <file>",
+          "config/forced_healing.json",
+          "<old-file>",
+          "<new-file>",
+          "wabbajack-cli.exe force-heal -o <old_file> -i <new-file>"
+        ]
+      },
+      {
+        "header": "File Validation Process",
+        "href": "https://wiki.wabbajack.org/technical_talk/Auto-healing%20%26%20Force-healing%20Overview.html#file-validation-process",
+        "highlighted_strings": [
+          "List Author Interaction",
+          "Invalid",
+          "Mirrored",
+          "Valid",
+          "configs/forced_healing.json"
+        ]
+      },
+      {
+        "header": "Multi-Parts Format",
+        "href": "https://wiki.wabbajack.org/technical_talk/Auto-healing%20%26%20Force-healing%20Overview.html#multi-parts-format",
+        "highlighted_strings": [
+          "File Validation Process",
+          "1",
+          "0",
+          "./parts/{idx}",
+          "./definition.json.gz"
+        ]
+      },
+      {
+        "header": "Parts in play",
+        "href": "https://wiki.wabbajack.org/technical_talk/Auto-healing%20%26%20Force-healing%20Overview.html#parts-in-play",
+        "highlighted_strings": [
+          "Multi-Parts Format",
+          "{file_hash_hex}",
+          "{from_hash_hex}_{to_hash_hex}"
+        ]
+      },
+      {
+        "header": "Auto-healing & Force-healing Overview",
+        "href": "https://wiki.wabbajack.org/technical_talk/Auto-healing%20%26%20Force-healing%20Overview.html#auto-healing--force-healing-overview",
+        "highlighted_strings": [
+          "Parts in play"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "9. Hashing Overview",
+    "href": "https://wiki.wabbajack.org/technical_talk/Hashing%20Overview.html",
+    "indexed_headers": [
+      {
+        "header": "Hash formatting (Base 64 vs Base 16)",
+        "href": "https://wiki.wabbajack.org/technical_talk/Hashing%20Overview.html#hash-formatting-base-64-vs-base-16",
+        "highlighted_strings": [
+          "eSIyd+KOG3s=",
+          "f",
+          "a",
+          "42",
+          "b3584f423b8c21b871a0abce260259f58cb3657e03fb1121c674f170e990d35d"
+        ]
+      },
+      {
+        "header": "Hashing Algorithms",
+        "href": "https://wiki.wabbajack.org/technical_talk/Hashing%20Overview.html#hashing-algorithms",
+        "highlighted_strings": [
+          "Hash formatting (Base 64 vs Base 16)",
+          "SHA256",
+          "SHA256",
+          "SHA1",
+          "MD5",
+          "CRC"
+        ]
+      },
+      {
+        "header": "Hashing Overview",
+        "href": "https://wiki.wabbajack.org/technical_talk/Hashing%20Overview.html#hashing-overview",
+        "highlighted_strings": [
+          "Hashing Algorithms"
+        ]
+      }
+    ]
+  }
+]

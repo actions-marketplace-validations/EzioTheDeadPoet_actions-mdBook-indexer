@@ -1,0 +1,30 @@
+name: Test Action
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+    workflow_dispatch:
+
+jobs:
+    get-num-square:
+      runs-on: ubuntu-latest
+      name: Testing functionality
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v2
+        - name: Index mdBook 
+          id: mdBook_site_to_JSON
+          uses: ./ # Uses an action in the root directory
+          # or use a released GitHub Action
+          # uses: shipyard/github-action/fetch-shipyard-env@1.0.0
+          with:
+            wiki_url: https://wiki.wabbajack.org/
+            output_file: ./book/example_output.json
+        - name: Deploy Page
+          uses: peaceiris/actions-gh-pages@v3
+          if: ${{ github.ref == 'refs/heads/main' }}
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./book
+            publish_branch: gh-pages
