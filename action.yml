@@ -35,5 +35,5 @@ runs:
         args: -O "generate_index_JSON.py" "https://raw.githubusercontent.com/EzioTheDeadPoet/actions-mdBook-indexer/master/src/generate_index_JSON.py"
     - name: Index mdBook to JSON
       id: index_task
-      run: python generate_index_JSON.py ${{ inputs.mbBook_url }} json_index/${{ inputs.output_file }}
+      run: python generate_index_JSON.py ${{ inputs.mbBook_url }} ${{ inputs.output_file }}
       shell: bash
